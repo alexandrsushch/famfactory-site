@@ -1,13 +1,120 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FAMFACTORY — Мерч из Питера</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAMFACTORY</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
 
+  <header class="site-header">
+    <div class="site-header__overlay">
+      <div class="container">
+        <nav class="site-header__top">
+          <address class="site-header__contact site-header__contact--left">
+            <a href="tel:+79253431696" class="site-header__phone">+7 925 343 16 96</a>
+            <span class="site-header__note">Перезвоните мне</span>
+          </address>
 
-  </body>
+          <div class="site-header__brand">
+            <strong class="site-header__logo">FAMFACTORY</strong>
+            <span class="site-header__subtitle">Швейная фабрика</span>
+          </div>
+
+          <address class="site-header__contact site-header__contact--right">
+            <a href="mailto:mail@famfactory.ru" class="site-header__email">mail@famfactory.ru</a>
+            <span class="site-header__note">Наша почта</span>
+          </address>
+        </nav>
+
+        <div class="site-header__hero">
+          <h1 class="site-header__title">Сделано<br />в Санкт-Петербурге</h1>
+          <a href="#contact" class="site-header__button">Отправить запрос</a>
+        </div>
+
+        <div class="site-header__contacts-mobile">
+          <address class="site-header__contact site-header__contact--left">
+            <a href="tel:+79253431696" class="site-header__phone">+7 925 343 16 96</a>
+            <span class="site-header__note">Перезвоните мне</span>
+          </address>
+          <address class="site-header__contact site-header__contact--right">
+            <a href="mailto:mail@famfactory.ru" class="site-header__email">mail@famfactory.ru</a>
+            <span class="site-header__note">Наша почта</span>
+          </address>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="catalog">
+    <div class="container">
+      <h2 class="catalog__title">
+        Современный<br />
+        мерчендайз для бизнеса
+      </h2>
+      <p class="catalog__description">
+        Над реализацией проектов по разработке и производству одежды и
+        аксессуаров трудится<br />
+        огромная команда профессионалов, поэтому мы можем создавать проекты
+        любой<br />
+        сложности и масштабов под ключ или воплотить конкретные задачи на
+        любом из этапов<br />
+        производства.
+      </p>
+
+      <div class="catalog__grid">
+        <article class="product-card">
+          <img src="/img/product1.png" alt="Футболка белая" class="product-card__image" />
+          <div class="product-card__info">
+            <h3 class="product-card__title">Худи</h3>
+            <p class="product-card__price">от 1650 ₽</p>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="/img/product2.png" alt="Худи чёрное" class="product-card__image" />
+          <div class="product-card__info">
+            <h3 class="product-card__title">Футболки</h3>
+            <p class="product-card__price">от 510 ₽</p>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="/img/product3.png" alt="Свитшот серый" class="product-card__image" />
+          <div class="product-card__info">
+            <h3 class="product-card__title">Свитшоты</h3>
+            <p class="product-card__price">от 890 ₽</p>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="/img/product4.png" alt="Лонгслив" class="product-card__image" />
+          <div class="product-card__info">
+            <h3 class="product-card__title">Штаны</h3>
+            <p class="product-card__price">от 1230 ₽</p>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="/img/product5.png" alt="Сумка тканевая" class="product-card__image" />
+          <div class="product-card__info">
+            <h3 class="product-card__title">Шопперы</h3>
+            <p class="product-card__price">от 330 ₽</p>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="/img/product6.png" alt="Кепка" class="product-card__image" />
+          <div class="product-card__info">
+            <h3 class="product-card__title">Кепки</h3>
+            <p class="product-card__price">от 400 ₽</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</body>
 </html>
